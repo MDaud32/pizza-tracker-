@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-200">
+    <div class="flex pt-6 items-center justify-center w-full mx-auto">
+      <div class="flex flex-row">
+        <div class="px-1 py-4 mx-auto bg-white rounded-2xl shadow-xl w-80">
+          <!-- Navigation Bar -->
+          <div
+            class="w-full px-1 py-1.5 justify-center text-center bg-gray-300 shadow-inner shadow-slate-500 rounded-full text-sm"
+          >
+            <div
+              class="flex flex-row transform shadow-slate-700 space-x-1 font-bold text-xs"
+            >
+              <!-- Item #1 -->
+              <div class="-skew-x-12">
+                <p
+                  class="py-5 px-1 w-[52px] text-[10px] text-white hover:bg-orange-500 bg-[#414141] rounded-tl-[50px] rounded-bl-[80px] hover:shadow-inner hover:shadow-gray-600 justify-center text-center"
+                >
+                  Claim Filed
+                </p>
+              </div>
+
+              <!-- Item #2 -->
+              <div class="-skew-x-6">
+                <p
+                  class="py-3 px-1 w-[62px] text-[10px] text-white hover:bg-orange-500 bg-[#414141] transform -skew-x-6 hover:shadow-inner hover:shadow-gray-600"
+                >
+                  Claim under review
+                </p>
+              </div>
+
+              <!-- Item #3 Active -->
+              <div class="-skew-x-12">
+                <p
+                  class="py-5 px-1 w-[66px] text-[10px] text-white hover:bg-orange-500 bg-[#414141] hover:shadow-inner hover:shadow-gray-600 flex-shrink"
+                >
+                  Adjudication in progress
+                </p>
+              </div>
+
+              <!-- Item #4 -->
+              <div class="-skew-x-12">
+                <p
+                  class="py-5 px-1 w-[58px] text-[10px] text-white hover:bg-orange-500 bg-[#fb4e0b] shadow-inner shadow-gray-600"
+                >
+                  Claim approved
+                </p>
+              </div>
+
+              <!-- Item #5 -->
+              <div class="-skew-x-12">
+                <p
+                  class="py-5 px-1 w-[50px] text-[10px] text-white hover:bg-orange-500 bg-[#808080] rounded-tr-[70px] rounded-br-[45px] hover:shadow-inner hover:shadow-gray-600"
+                >
+                  Claim paid
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <form class="text-center mt-2 font-semibold space-x-1">
+            <input type="radio" id="absence" name="absence" value="Absence" />
+            <label for="absence">Absence</label>
+
+            <input type="radio" id="std" name="std" value="STD" />
+            <label for="std">STD</label>
+
+            <input type="radio" id="ltd" name="ltd" value="LTD" />
+            <label for="ltd">LTD</label>
+
+            <input type="radio" id="" name="cl" value="CL" />
+            <label for="cl">CL</label>
+
+            <input type="radio" id="hi" name="hi" value="HI" />
+            <label for="hi">HI</label>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
